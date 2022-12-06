@@ -3,10 +3,11 @@ import React from 'react'
 function Heading(props) {
   return (
     <div>
-      <h1 style={style.heading} >{props.text}</h1>
+      <h1 style={style.heading} >{props.text} </h1>
     </div>
   )
 }
+
 
 const style = {
   heading: {

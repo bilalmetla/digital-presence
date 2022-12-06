@@ -1,7 +1,7 @@
 import React from 'react';
 import { Heading, Description, Button, Image } from '../../Components';
 import mainSection from "../../assets/mainSection.png";
-import mainSection2 from "../../assets/mainSection2.png";
+// import mainSection2 from "../../assets/mainSection2.png";
 
 
 function MainSection(props) {
@@ -18,9 +18,9 @@ function MainSection(props) {
 
                 </div>
             </div>
-            <div>
+            {/* <div>
                 <Image style={style.image} width={"900px"} image={mainSection2} />
-            </div>
+            </div> */}
         </>
 
     )
@@ -30,9 +30,6 @@ const style = {
         display: "flex",
         justifyContent: "space-between"
     },
-    image:{
-        
-    }
 }
 
 export default MainSection;

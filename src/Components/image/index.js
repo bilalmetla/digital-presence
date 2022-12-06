@@ -11,6 +11,7 @@ function Image(props) {
 
 const style = {
   image: {
+    backgroundSize:"cover"
 },
 }
 
