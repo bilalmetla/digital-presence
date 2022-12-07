@@ -23,7 +23,8 @@ const style = {
     customersGrow: {
         display: "flex",
         justifyContent: "space-between",
-        marginTop: "150px"
+        marginTop: "150px",
+        marginBottom: "150px"
 
     },
 }

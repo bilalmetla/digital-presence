@@ -5,5 +5,6 @@ import SubscribeSection from "./subscribeSection";
 import DigitalAssets from "./digitalAssets";
 import AdsSection from "./adsSection";
 import CustomersGrow from "./customersGrow";
+import StateSlider from "./stateSlider";
 
-export {Header, MainSection,InclusiveApproach, SubscribeSection, DigitalAssets, AdsSection, CustomersGrow };
+export {Header, MainSection,InclusiveApproach, SubscribeSection, DigitalAssets, AdsSection, CustomersGrow, StateSlider };
