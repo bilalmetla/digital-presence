@@ -2,7 +2,7 @@ name: Digital Presence
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
