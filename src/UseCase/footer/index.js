@@ -20,9 +20,9 @@ function Footer() {
 			
 		</div>
 
-		<div>
+		
 			<Logo style={{width:"300px", marginRight:"150px"}}  />	
-		</div>
+		
 
         </div>
     )
