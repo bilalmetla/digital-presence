@@ -11,8 +11,8 @@ function SubscribeSection(props) {
                     <Image width={"100%"} image={subscribeSection} alt={"Subscribe Section Image"} />
                 </div>
                 <div style={style.subscribeText} >
-                    <Heading text={"1.Subscribe to our Sales Booster Plan"} />
-                    <Description Description={"Invest in your business by choosing to our plan.Get exclusive access to our app and enjoy real time data for your business."} />
+                    <Heading text={"Submit your business details and your requirements to us."} />
+                    <Description Description={"Our team will contact you in 48 hours with you for the detailed discussion."} />
                 </div>
             </div>
         </>

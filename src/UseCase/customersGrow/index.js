@@ -8,8 +8,8 @@ function CustomersGrow(props) {
         <>
             <div style={style.customersGrow}>
                 <div>
-                    <Heading text={"4. Grow your customers and multiply your sales"} />
-                    <Description Description={"Get maximum return on your investment with increased number of customer and sales revenue."} />
+                    <Heading text={"Extra you will get"} />
+                    <Description Description={"1- security of your website, social pages and your other digital assets."} />
                 </div>
                 <div>
                     <Image width={"550px"} image={customersGrowImg} alt={"Grow Customer Image"} />

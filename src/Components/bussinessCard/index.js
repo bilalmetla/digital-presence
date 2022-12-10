@@ -16,8 +16,12 @@ function BussinessCard(props) {
 
 const style = {
     card: {
-       	width:"320px",
-		
+       	width:"350px",
+		borderRadius: "8px",
+		border: "none",
+		backgroundColor: "#fff",
+		boxShadow: "0 15px 30px 0 rgb(220 221 243 / 25%)",
+		cursor: "pointer",
     },
 	cardImg: {
 		width: "50px",

@@ -11,8 +11,8 @@ function AdsSection(props) {
                     <Image width={"100%"} image={adsSectionImg} alt={"Run Ads Image"} />
                 </div>
                 <div style={style.subscribeText} >
-                    <Heading text={"3. We will run ads for you"} />
-                    <Description Description={"We will create and run ads for your business to reach out to leads and potential customers"} />
+                    <Heading text={"We will create and run ads for your business."} />
+                    <Description Description={"We will create and run ads according to your need for business and according to a best suitable strategy for your business. Which will help to grow your business."} />
                 </div>
             </div>
         </>

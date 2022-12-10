@@ -9,8 +9,8 @@ function MainSection(props) {
         <>
             <div style={style.mainSection}>
                 <div>
-                    <Heading text={"Grow your business right now."} />
-                    <Description Description={"Boost your ROI with detailed reports. Develop the best marketing strategy for your brand with data that actually matters."} />
+                    <Heading text={"Digit Presence will help you to grow your business."} />
+                    <Description Description={"We will help in design your website, social media marketing and will actually help to grow your business in your local area."} />
                     <Button text={"Get Started"} />
                 </div>
                 <div>

@@ -7,5 +7,6 @@ import AdsSection from "./adsSection";
 import CustomersGrow from "./customersGrow";
 import StateSlider from "./stateSlider";
 import BusinessDecisions from "./businessDecisions";
+import Footer from "./footer";
 
-export {Header, MainSection,InclusiveApproach, SubscribeSection, DigitalAssets, AdsSection, CustomersGrow, StateSlider, BusinessDecisions };
+export {Header, MainSection,InclusiveApproach, SubscribeSection, DigitalAssets, AdsSection, CustomersGrow, StateSlider, BusinessDecisions, Footer };

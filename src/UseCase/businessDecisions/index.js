@@ -10,13 +10,13 @@ function BusinessDecisions(props) {
         <>
             <div style={style.businessDecisions}>
                 <div style={style.textWrapper}>
-                    <h1 style={style.text}>Make business decisions that help you grow.</h1>
+                    <h1 style={style.text}> Digital Presence contact details for your business grow</h1>
                 </div>
 					
 			<div style={style.bussinessCards}>
-					<BussinessCard cardImage={workingHours} cardTitle={"Working Hours"} cardText={"Our Islamabad office is open 9AM to 6PM daily"} />
-					<BussinessCard cardImage={contactUs}  cardTitle={"Contact Us"} cardText={"Give us a call on +92(0)3330191295"} />
-					<BussinessCard cardImage={customerSupport}  cardTitle={"Customer Support"} cardText={"Get in touch via Whatsapp"} />	
+					<BussinessCard cardImage={workingHours} cardTitle={"Working Hours"} cardText={"24 Hours"} />
+					<BussinessCard cardImage={contactUs}  cardTitle={"Contact Us"} cardText={"+923136604801"} />
+					<BussinessCard cardImage={customerSupport}  cardTitle={"Customer Support"} cardText={"WhatsApp icon and facebook"} />	
 				</div>
 					
 

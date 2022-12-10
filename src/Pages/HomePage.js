@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container} from "../Components";
-import {Header, MainSection, InclusiveApproach, SubscribeSection, DigitalAssets, AdsSection, CustomersGrow, StateSlider, BusinessDecisions } from "../UseCase";
+import {Header, MainSection, InclusiveApproach, SubscribeSection, DigitalAssets, AdsSection, CustomersGrow, StateSlider, BusinessDecisions, Footer } from "../UseCase";
 
 
 
@@ -16,6 +16,7 @@ function HomePage() {
       <CustomersGrow/>
       <StateSlider/>
 	  <BusinessDecisions/>
+	  <Footer/>
     </Container>
   );
 }
