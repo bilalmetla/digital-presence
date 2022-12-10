@@ -45,15 +45,15 @@ const style = {
 		marginBottom: "30px"
    },
 	whatsappLink: {
-		fontSize:"50px",
+		fontSize:"20px",
 		color:"green",
 	},
 	facebookLink: {
-		fontSize:"50px",
+		fontSize:"20px",
 		color:"blue",
 	},
 	telephoneLink: {
-		fontSize:"50px",
+		fontSize:"20px",
 		color:"green",
 	}
 	

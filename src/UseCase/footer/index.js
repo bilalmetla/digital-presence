@@ -9,7 +9,7 @@ function Footer() {
         <div style={style.footerWrapper}>
 		
 		<div>
-			<p>© 2020 Copyright: Digital-Presence.com</p>
+			<p>© 2022 Copyright by digital-Presence.com</p>
 		</div>
 
 		<div style={style.footerLinks}>
@@ -39,15 +39,15 @@ const style = {
 		fontWeight:"bold"
 	},
 	whatsappLink: {
-		fontSize:"50px",
+		fontSize:"20px",
 		color:"green",
 	},
 	facebookLink: {
-		fontSize:"50px",
+		fontSize:"20px",
 		color:"blue",
 	},
 	telephoneLink: {
-		fontSize:"50px",
+		fontSize:"20px",
 		color:"green",
 	}
 }
