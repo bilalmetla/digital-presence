@@ -8,6 +8,7 @@ function HomePage() {
   return (
     <Container>
       <Header/>
+	  <StateSlider/>
       <MainSection/>
       <InclusiveApproach/>
       <SubscribeSection/>

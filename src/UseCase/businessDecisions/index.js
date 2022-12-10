@@ -3,6 +3,8 @@ import { BussinessCard } from '../../Components';
 import workingHours from '../../assets/workingHours.svg';
 import contactUs from '../../assets/contactus.svg';
 import customerSupport from '../../assets/customerSupport.svg';
+ 
+
 
 
 function BusinessDecisions(props) {
@@ -15,8 +17,10 @@ function BusinessDecisions(props) {
 					
 			<div style={style.bussinessCards}>
 					<BussinessCard cardImage={workingHours} cardTitle={"Working Hours"} cardText={"24 Hours"} />
-					<BussinessCard cardImage={contactUs}  cardTitle={"Contact Us"} cardText={"+923136604801"} />
-					<BussinessCard cardImage={customerSupport}  cardTitle={"Customer Support"} cardText={"WhatsApp icon and facebook"} />	
+					<BussinessCard cardImage={contactUs}  cardTitle={"Contact Us"}  call="+923136604801" whatsApp="923136604801" >
+						</BussinessCard>
+					<BussinessCard cardImage={customerSupport}  cardTitle={"Customer Support"} cardText={""} whatsApp="923136604801" facebook="true" >
+						</BussinessCard>
 				</div>
 					
 

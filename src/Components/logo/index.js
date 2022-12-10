@@ -1,10 +1,11 @@
 import React from 'react';
+import logo from "../../assets/logo.png";
 
 
 function Logo(props) {
     return (
         <div className='logo'>
-            <img {...props} src={props.image} alt={"logoImg"}  />
+            <img {...props} src={logo} alt={props.alt}  />
         </div>
     );
 }

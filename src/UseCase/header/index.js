@@ -1,11 +1,11 @@
 import React from 'react';
-import logoImage from '../../assets/logo.png';
+// import logoImage from '../../assets/logo.svg';
 import {Button, Link, Logo, } from "../../Components";
 
 function Header() {
     return (
         <div style={style}>
-            <Logo style={{width:"200px"}} image={logoImage} />
+            <Logo style={{width:"300px"}}  />
             <div>
                 <Link style={styles.link} 
                 text={"Login for old users"} />
