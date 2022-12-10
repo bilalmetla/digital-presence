@@ -4,7 +4,7 @@ import logo from "../../assets/logo.png";
 
 function Logo(props) {
     return (
-        <div className='logo'>
+        <div>
             <img {...props} src={logo} alt={props.alt}  />
         </div>
     );
