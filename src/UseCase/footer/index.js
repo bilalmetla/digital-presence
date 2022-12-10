@@ -30,9 +30,6 @@ const style = {
 	},
 	footerLinkHeading: {
 		fontWeight:"bold"
-	},
-	iconColor:{
-		color: "red"
 	}
 }
 
