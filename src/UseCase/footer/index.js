@@ -21,7 +21,7 @@ function Footer() {
 		</div>
 
 		
-			<Logo style={{width:"300px", marginRight:"150px"}}  />	
+			<Logo style={{width:"300px"}}  />	
 		
 
         </div>
