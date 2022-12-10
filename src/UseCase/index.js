@@ -6,5 +6,6 @@ import DigitalAssets from "./digitalAssets";
 import AdsSection from "./adsSection";
 import CustomersGrow from "./customersGrow";
 import StateSlider from "./stateSlider";
+import BusinessDecisions from "./businessDecisions";
 
-export {Header, MainSection,InclusiveApproach, SubscribeSection, DigitalAssets, AdsSection, CustomersGrow, StateSlider };
+export {Header, MainSection,InclusiveApproach, SubscribeSection, DigitalAssets, AdsSection, CustomersGrow, StateSlider, BusinessDecisions };
