@@ -14,7 +14,7 @@ function MainSection(props) {
                     <Button text={"Get Started"} />
                 </div>
                 <div>
-                    <Image width={"550px"} image={mainSection} />
+                    <Image width={"550px"} image={mainSection} alt={"Grow Bussiness Image"} />
 
                 </div>
             </div>

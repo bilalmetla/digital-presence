@@ -12,7 +12,7 @@ function CustomersGrow(props) {
                     <Description Description={"Get maximum return on your investment with increased number of customer and sales revenue."} />
                 </div>
                 <div>
-                    <Image width={"550px"} image={customersGrowImg} />
+                    <Image width={"550px"} image={customersGrowImg} alt={"Grow Customer Image"} />
                 </div>
             </div>
         </>

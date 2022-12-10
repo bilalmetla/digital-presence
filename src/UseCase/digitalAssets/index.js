@@ -12,7 +12,7 @@ function DigitalAssets(props) {
                     <Description Description={"Get a website, landing page, and social media page for your business and make your online presence complete"} />
                 </div>
                 <div>
-                    <Image width={"550px"} image={digitalAssetsImg} />
+                    <Image width={"550px"} image={digitalAssetsImg} alt={"Digital Assets Image"} />
                 </div>
             </div>
         </>
