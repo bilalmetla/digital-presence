@@ -8,7 +8,7 @@ function AdsSection(props) {
         <>
             <div style={style.adsSection}>
                 <div>
-                    <Image width={"100%"} image={adsSectionImg} alt={"Run Ads Image"} />
+                    <Image width={"550px"} image={adsSectionImg} alt={"Run Ads Image"} />
                 </div>
                 <div style={style.subscribeText} >
                     <Heading text={"We will create and run ads for your business."} />
