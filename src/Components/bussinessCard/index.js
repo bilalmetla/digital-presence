@@ -11,8 +11,8 @@ function BussinessCard(props) {
         <Card.Title style={style.cardTitle} >{props.cardTitle}</Card.Title>
         <Card.Text style={style.cardText} > {props.cardText} </Card.Text>
 		{ props.whatsApp && <Card.Link style={style.whatsappLink} href={`https://wa.me/${props.whatsApp}`}>{<BsWhatsapp/>}</Card.Link>	 }
-		{ props.facebook && <Card.Link style={style.facebookLink} href="#">{<BsFacebook/>}</Card.Link>	 }
-		{ props.call && <Card.Link style={style.telephoneLink} href="tel:+923136604801">{<BsTelephone/>}</Card.Link>	 }
+		{ props.facebook && <Card.Link style={style.facebookLink} href="https://www.facebook.com/profile.php?id=100088791724793">{<BsFacebook/>}</Card.Link>	 }
+		{ props.call && <Card.Link style={style.telephoneLink} href="tel:+923015339780">{<BsTelephone/>}</Card.Link>	 }
 
       </Card.Body>
 

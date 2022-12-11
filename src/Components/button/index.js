@@ -14,7 +14,7 @@ const style = {
 		textDecoration: "none",
         border: "none",
         background: "#282876",
-        padding: "20px 35px",
+        padding: "15px 35px",
         borderRadius: "30px",
         color:"white",
         fontSize:"18px"

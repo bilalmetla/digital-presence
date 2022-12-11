@@ -17,9 +17,9 @@ function BusinessDecisions(props) {
 					
 			<div style={style.bussinessCards}>
 					<BussinessCard cardImage={workingHours} cardTitle={"Working Hours"} cardText={"24 Hours"} />
-					<BussinessCard cardImage={contactUs}  cardTitle={"Contact Us"}  call="+923136604801" whatsApp="923136604801" >
+					<BussinessCard cardImage={contactUs}  cardTitle={"Contact Us"}  call="+923015339780" whatsApp="923015339780" >
 						</BussinessCard>
-					<BussinessCard cardImage={customerSupport}  cardTitle={"Customer Support"} cardText={""} whatsApp="923136604801" facebook="true" >
+					<BussinessCard cardImage={customerSupport}  cardTitle={"Customer Support"} cardText={""} whatsApp="923015339780" facebook="true" >
 						</BussinessCard>
 				</div>
 					
