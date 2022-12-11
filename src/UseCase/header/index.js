@@ -1,12 +1,16 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom'
 import {Button, Logo, } from "../../Components";
 
 function Header() {
+    const location = useLocation();
+    console.log(location.pathname);
     return (
         <div style={style}>
-            <Logo style={{width:"300px"}}  />
+            <Logo style={{width:"300px", height:"100px"}}  />
             <div>
-                <Button to="/bussiness-requirement" text={"Get Started"} />
+                { location.pathname !== '/' && <Button to="/" text={"Home"} /> }
+                { location.pathname !== '/bussiness-requirement' && <Button to="/bussiness-requirement" text={"Get Started"} /> }
             </div>
 
         </div>
