@@ -144,15 +144,15 @@ function Requirement() {
 
 
       <Form.Group className="mb-3" controlId="formGridAddress1">
-        <Form.Label>Address</Form.Label>
+        <Form.Label style={style.formLabel} >Address</Form.Label>
         <Form.Control onChange={handleFormData}
 	 		name="address"		
 	 	type="text"  placeholder="1234 Main St" />
       </Form.Group>
 
-      <Button onClick={handleSubmit} style={style.formButton} type="submit">
-        Submit
-      </Button>
+	 <div style={style.formButtonWrapper} >
+      <Button onClick={handleSubmit} style={style.formButton}  type="submit"> Submit </Button>
+	 </div>
     </Form>
 </div>
   );
@@ -177,7 +177,14 @@ const style = {
 	},
 	formButton: {
 		background: "#282876",
-		border:"none"
+		padding:"15px 80px",
+		fontSize:"20px",
+		border:"none",
+		marginTop:"15px"
+	},
+	formButtonWrapper: {
+		display:"flex",
+		justifyContent: "center",
 	}
 }
 
