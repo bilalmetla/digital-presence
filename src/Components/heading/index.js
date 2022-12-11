@@ -5,7 +5,7 @@ function Heading(props) {
     heading: {
       fontSize: "45px",
       color: "#282876",
-      marginTop:"80px"
+     /* marginTop:"80px" */
   }
   }
   if(props.marginTop){
