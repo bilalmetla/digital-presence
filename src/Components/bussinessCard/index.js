@@ -7,7 +7,8 @@ function BussinessCard(props) {
     <Card style={style.card}>
 	  
       <Card.Body>
-        <Card.Img style={style.cardImg} {...props} src={props.cardImage} alt={props.alt} />
+        <Card.Img style={style.cardImg} {...props} src={props.cardImage} alt={props.alt} /> 
+			
         <Card.Title style={style.cardTitle} >{props.cardTitle}</Card.Title>
         <Card.Text style={style.cardText} > {props.cardText} </Card.Text>
 		{ props.whatsApp && <Card.Link style={style.whatsappLink} href={`https://wa.me/${props.whatsApp}`}>{<BsWhatsapp/>}</Card.Link>	 }
@@ -31,7 +32,7 @@ const style = {
 	cardImg: {
 		width: "50px",
 		marginBottom: "30px",
-		marginTop: "50px"
+		marginTop: "50px",
 	},
 	cardTitle: {
     	fontSize: "25px",
