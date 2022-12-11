@@ -1,6 +1,6 @@
 import React from 'react';
 import { Heading, Description, Image } from '../../Components';
-import subscribeSection from "../../assets/subscribeSection.png";
+import subscribeSection from "../../assets/home-page/Submit-business-details.jpg";
 
 
 function SubscribeSection(props) {

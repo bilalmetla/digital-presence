@@ -46,15 +46,15 @@ const style = {
    },
 	whatsappLink: {
 		fontSize:"30px",
-		color:"green",
+		color:"#282876",
 	},
 	facebookLink: {
 		fontSize:"30px",
-		color:"blue",
+		color:"#282876",
 	},
 	telephoneLink: {
 		fontSize:"30px",
-		color:"green",
+		color:"#282876",
 	}
 	
 }
