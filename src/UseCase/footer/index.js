@@ -34,6 +34,7 @@ const style = {
  	footerWrapper:{
 		display: "flex",
 		justifyContent: "space-between",
+		bottomMargin: "50px"
 	},
 	footerLinkHeading: {
 		fontWeight:"bold"

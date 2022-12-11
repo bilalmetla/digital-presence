@@ -1,5 +1,5 @@
 import React from 'react';
-import { BussinessCard } from '../../Components';
+import { BussinessCard, Heading } from '../../Components';
 import workingHours from '../../assets/workingHours.svg';
 import contactUs from '../../assets/contactus.svg';
 import customerSupport from '../../assets/customerSupport.svg';
@@ -12,7 +12,7 @@ function BusinessDecisions(props) {
         <>
             <div style={style.businessDecisions}>
                 <div style={style.textWrapper}>
-                    <h1 style={style.text}> Digital Presence contact details for your business grow</h1>
+                    <Heading text={"Digital Presence contact details for your business grow."}></Heading>
                 </div>
 					
 			<div style={style.bussinessCards}>
