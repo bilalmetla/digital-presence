@@ -3,6 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import React, { useState } from 'react';
+import SendEmail from '../../emailjs';
 
 function Requirement() {
 	const [isWebsiteRequired, setIsWebsiteRequired] = useState(false);
@@ -32,6 +33,8 @@ function Requirement() {
 		data.bussinessCategory=bussinessCategory
 		setFormData(data)
 		console.log(formData)
+      SendEmail(data)
+    
 	}
 	
 	
