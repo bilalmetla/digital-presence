@@ -1,6 +1,6 @@
 import React from 'react';
 import { Heading, Description, Image } from '../../Components';
-import customersGrowImg from "../../assets/customersGrow.png";
+import customersGrowImg from "../../assets/home-page/Benefits-of-Working-with-a-digital-marketing-agency-1024x735.jpg";
 
 
 function CustomersGrow(props) {

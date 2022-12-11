@@ -1,6 +1,6 @@
 import React from 'react';
 import { Heading, Description, Image } from '../../Components';
-import digitalAssetsImg from "../../assets/digitalAssets.png";
+import digitalAssetsImg from "../../assets/home-page/best-practices-for-maximizing-your-digital-presence.png";
 
 
 function DigitalAssets(props) {

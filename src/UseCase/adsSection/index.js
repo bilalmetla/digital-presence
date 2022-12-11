@@ -1,6 +1,6 @@
 import React from 'react';
 import { Heading, Description, Image } from '../../Components';
-import adsSectionImg from "../../assets/adsSection.png";
+import adsSectionImg from "../../assets/home-page/Social-Media-Advertising.png";
 
 
 function AdsSection(props) {
