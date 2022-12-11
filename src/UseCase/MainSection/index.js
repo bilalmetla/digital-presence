@@ -11,7 +11,7 @@ function MainSection(props) {
                 <div>
                     <Heading text={"Digit Presence will help you to grow your business."} />
                     <Description Description={"We will help in design your website, social media marketing and will actually help to grow your business in your local area."} />
-                    <Button text={"Get Started"} />
+                    <Button to="/bussiness-requirement" text={"Get Started"} />
                 </div>
                 <div>
                     <Image width={"550px"} image={mainSection} alt={"Grow Bussiness Image"} />

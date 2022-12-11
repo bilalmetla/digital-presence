@@ -8,5 +8,6 @@ import CustomersGrow from "./customersGrow";
 import StateSlider from "./stateSlider";
 import BusinessDecisions from "./businessDecisions";
 import Footer from "./footer";
+import Requirement from "./bussinessRequirement";
 
-export {Header, MainSection,InclusiveApproach, SubscribeSection, DigitalAssets, AdsSection, CustomersGrow, StateSlider, BusinessDecisions, Footer };
+export {Header, MainSection,InclusiveApproach, SubscribeSection, DigitalAssets, AdsSection, CustomersGrow, StateSlider, BusinessDecisions, Footer, Requirement };
