@@ -33,6 +33,8 @@ const style = {
 		width: "50px",
 		marginBottom: "30px",
 		marginTop: "50px",
+		color: "#fff",
+		background:"#282876",
 	},
 	cardTitle: {
     	fontSize: "25px",
