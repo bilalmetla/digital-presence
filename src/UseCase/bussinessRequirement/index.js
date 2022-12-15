@@ -24,28 +24,28 @@ function Requirement () {
 
   const handleWebsiteRequiredOnChange = () => {
     setIsWebsiteRequired (!isWebsiteRequired);
-    setFormData ({...formData, isWebsiteRequired});
+    setFormData ({...formData, isWebsiteRequired: !isWebsiteRequired});
   };
 
   const handleFacebookPageOnChange = () => {
     setIsFacebookPageRequired (!isFacebookPageRequired);
-    setFormData ({...formData, isFacebookPageRequired});
+    setFormData ({...formData, isFacebookPageRequired: !isFacebookPageRequired});
   };
   const handleLinkedinPageOnChange = () => {
     setIsLinkedinPageRequired (!isLinkedinPageRequired);
-    setFormData ({...formData, isLinkedinPageRequired});
+    setFormData ({...formData, isLinkedinPageRequired: !isLinkedinPageRequired});
   };
   const handleGooglePageOnChange = () => {
     setIsGooglePageRequired (!isGooglePageRequired);
-    setFormData ({...formData, isGooglePageRequired});
+    setFormData ({...formData, isGooglePageRequired: !isGooglePageRequired});
   };
   const handleTwitterPageOnChange = () => {
     setIsTwitterPageRequired (!isTwitterPageRequired);
-    setFormData ({...formData, isTwitterPageRequired});
+    setFormData ({...formData, isTwitterPageRequired: !isTwitterPageRequired});
   };
   const handleWhatsappPageOnChange = () => {
     setIsWhatsappPageRequired (!isWhatsappPageRequired);
-    setFormData ({...formData, isWhatsappPageRequired});
+    setFormData ({...formData, isWhatsappPageRequired: !isWhatsappPageRequired});
   };
   const handleDropDownOnChange = event => {
     setBussinessCategory (event.target.value);
