@@ -12,7 +12,7 @@ function BusinessDecisions(props) {
         <>
             <div style={style.businessDecisions}>
                 <div style={style.textWrapper}>
-                    <Heading text={"Digital Presence contact details for your business grow."}></Heading>
+                    <Heading text={"Contact us for your business grow."}></Heading>
                 </div>
 					
 			<div style={style.bussinessCards}>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Heading, Description, Image } from '../../Components';
-import subscribeSection from "../../assets/subscribeSection.png";
+import subscribeSection from "../../assets/home-page/Submit-business-details.jpg";
 
 
 function SubscribeSection(props) {
@@ -8,7 +8,7 @@ function SubscribeSection(props) {
         <>
             <div style={style.subscribeSection}>
             <div>
-                    <Image width={"100%"} image={subscribeSection} alt={"Subscribe Section Image"} />
+                    <Image width={"550px"} image={subscribeSection} alt={"Subscribe Section Image"} />
                 </div>
                 <div style={style.subscribeText} >
                     <Heading text={"Submit your business details and your requirements to us."} />

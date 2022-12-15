@@ -1,6 +1,6 @@
 import React from 'react';
 import { Heading, Description, Image } from '../../Components';
-import digitalAssetsImg from "../../assets/digitalAssets.png";
+import digitalAssetsImg from "../../assets/home-page/best-practices-for-maximizing-your-digital-presence.png";
 
 
 function DigitalAssets(props) {
@@ -8,7 +8,7 @@ function DigitalAssets(props) {
         <>
             <div style={style.digitalAssets}>
                 <div>
-                    <Heading text={"We will create Digital Presence for your business."} />
+                    <Heading  text={"We will create Digital Presence for your business."} />
                     <Description marginBottom="2px"  Description={"1- Website"} />
                     <Description marginBottom="2px" marginTop="0px" Description={"2- Facebook Page"} />
                     <Description marginBottom="2px" marginTop="0px" Description={"3- Instagram"} />
@@ -16,7 +16,7 @@ function DigitalAssets(props) {
                     <Description marginBottom="2px" marginTop="0px" Description={"6- Google Page"} />
                 </div>
                 <div>
-                    <Image width={"550px"} image={digitalAssetsImg} alt={"Digital Assets Image"} />
+                    <Image width={"600px"} image={digitalAssetsImg} alt={"Digital Assets Image"} />
                 </div>
             </div>
         </>

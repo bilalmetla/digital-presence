@@ -1,6 +1,6 @@
 import React from 'react';
 import { Heading, Description, Image } from '../../Components';
-import adsSectionImg from "../../assets/adsSection.png";
+import adsSectionImg from "../../assets/home-page/Social-Media-Advertising.png";
 
 
 function AdsSection(props) {
@@ -8,7 +8,7 @@ function AdsSection(props) {
         <>
             <div style={style.adsSection}>
                 <div>
-                    <Image width={"100%"} image={adsSectionImg} alt={"Run Ads Image"} />
+                    <Image width={"550px"} image={adsSectionImg} alt={"Run Ads Image"} />
                 </div>
                 <div style={style.subscribeText} >
                     <Heading text={"We will create and run ads for your business."} />
